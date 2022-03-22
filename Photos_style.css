@@ -1,0 +1,52 @@
+
+/*header edits*/
+
+.header {
+    position: relative;
+    background-image: url(Assets/header_images/BG\ header\ photos.png);
+    background-size: cover;
+    width: 1356px;
+    height: 720px;
+    background-repeat: no-repeat;
+}
+.wlcm {
+    position: relative;
+    width: 500px;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+    font-size: 3em;
+}
+.hints {
+    position: relative;
+    width: 400px;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+}
+
+/*main edits*/
+.main {
+    margin-top: 150px;
+    padding: 10px 10%;
+}
+.photos_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.pics {
+    width: 250px;
+    transition: all 2s ease 0s;
+    margin: 15px;
+}
+.pics:hover {
+    position: relative;
+    object-fit: fill;
+    width: 600px;
+    align-items: center;
+    justify-items: center;
+    border: none;
+}

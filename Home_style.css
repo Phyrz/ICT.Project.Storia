@@ -1,0 +1,93 @@
+
+/*header edits*/
+
+.header {
+    position: relative;
+    background-image: url(Assets/header_images/BG\ header\ home.png);
+    background-size: cover;
+    width: 1356px;
+    height: 720px;
+    background-repeat: no-repeat;
+}
+.wlcm {
+    position: relative;
+    width: 500px;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+    font-size: 3em;
+}
+.hints {
+    position: relative;
+    width: 400px;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+}
+
+/*main edits*/
+
+.main {
+    margin-top: 150px;
+    padding: 10px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    justify-content: center;
+    align-items:  center;
+}
+.main_img {
+    width: 450px;
+}
+.img1 {
+    -webkit-mask-image: linear-gradient(to right, black, transparent) ;
+    mask-image: linear-gradient( to right, black, transparent);
+    border-radius: 20px 0px 0px 20px;
+
+}
+.img2 {
+    margin-left: auto;
+    -webkit-mask-image: linear-gradient(to left, black, transparent) ;
+    mask-image: linear-gradient( to left, black, transparent);
+    border-radius: 0px 20px 20px  0px ;
+}
+
+.selection {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 150px;
+    width: 500px;
+    left: 40%;
+}
+
+.name_selection {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+    top: 50px;
+    left: 180px;
+}
+h1.name1_selection {
+    width: 100px;
+    margin: 0px 130px;
+}
+
+
+.photo {
+    width: 300px;
+}
+
+.link_shadow {
+    width: 200px;
+    height: 390px;
+}
+
+h2 {
+    margin-top: 150px;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
